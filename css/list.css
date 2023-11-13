@@ -1,0 +1,42 @@
+.inline {
+   display: flex;
+}
+.div-list {
+   margin-left: 50px;
+}
+.list {
+   margin: 0;
+   padding: 0;
+   /* чтобы убрать значки перед элементами списка */
+   list-style: none;
+}
+.list li {
+   margin-bottom: 10px;
+   border-bottom: 1px solid gray;
+}
+.navbar {
+   background: lightyellow;
+   /* padding: 10px 20px; */
+   margin-bottom: 5px;
+}
+.navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0px 20px;
+      display: flex;
+}
+.navbar ul li {
+   margin-right: 10px;
+   padding: 10px 10px;
+}
+.navbar ul li:hover {
+   background: lightsalmon;
+}
+/* удаляем отступ справа у последнего элемента li */
+.navbar ul li:last-child {
+   margin-right: 0;
+}
+.navbar ul li a {
+   text-decoration: none;
+   color: black;
+}

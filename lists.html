@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <link rel="stylesheet" href="css/list.css">
+</head>
+<body>
+    <h2>Lists</h2>
+    <hr>
+    <h3>Меню навигации из списка ссылок с css</h3>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <div class="inline">
+        <div>
+            <h3>Ненумерованый список</h3>
+            <ul type="square">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+                <li>Item4</li>
+                <li>Item5</li>
+            </ul>
+        </div>
+        <div class="div-list">
+            <h3>Ненумерованый список со стилями css</h3>
+            <ul type="square"  class="list">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+                <li>Item4</li>
+                <li>Item5</li>
+            </ul>
+        </div>
+    </div>    
+    <hr>
+    <div class="inline">
+        <div>
+            <h3>Нумерованый список</h3>
+            <ol type='I'>
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+                <li>Item4</li>
+                <li>Item5</li>
+            </ol>
+        </div>
+        <div class="div-list">
+            <h3>Нумерованый список со стилями css</h3>
+            <ol type='1' class="list">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+                <li>Item4</li>
+                <li>Item5</li>
+            </ol>
+        </div>
+    </div>    
+    <hr>
+    <div class="inline">
+        <div>
+            <h3>Вложенный список</h3>
+            <ul>
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>
+                    Item3
+                    <ul>
+                        <li>Inner Item1</li>
+                        <li>Inner Item2</li>
+                        <li>Inner Item3</li>
+                    </ul>
+                </li>
+                <li>Item4</li>
+                <li>Item5</li>
+            </ul>
+        </div>
+        <div class="div-list">
+            <h3>Вложенный список со стилями css</h3>
+            <ul class="list">
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>
+                    Item3
+                    <ul>
+                        <li>Inner Item1</li>
+                        <li>Inner Item2</li>
+                        <li>Inner Item3</li>
+                    </ul>
+                </li>
+                <li>Item4</li>
+                <li>Item5</li>
+            </ul>
+        </div>
+    </div> 
+    <hr>
+    <h3>Списки описания</h3>
+    <dl>
+        <dt>Солилоквий</dt>
+        <dd>
+            Драматическая речь, в которой персонаж разговаривает сам с собой, передавая
+            свои ощущения и мысли публике (но не другим персонажам).
+        </dd>
+        <dt>Монолог</dt>
+        <dd>
+            Драматическая речь, в которой персонаж передаёт свои мысли публике и
+            некоторым персонажам.
+        </dd>
+        <dt>Ремарка</dt>
+        <dd>
+            В драме: речь персонажа, при которой делается замечание с юмористическим или
+            драматическим эффектом; чаще всего это чувства, мысли или предпосылки к
+            чему-либо.
+        </dd>
+        <dd>
+            В письменности: отметка, примечание (<i>устар.</i>).
+        </dd>
+    </dl>
+
+<!--
+    Быстрый ввод тегов с помощью Emmets:
+    ul>li{element $}*5 //выведет список из 5 элементов с текстом "element $", где вместо $ будет число от 1 до 5
+-->
+</body>
+</html>

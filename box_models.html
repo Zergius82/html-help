@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box models Css</title>
+    <style>
+        * {
+            /* можно сбросить все отступы по умолчанию */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 750px;
+            margin: auto;
+        }
+        .box {
+            background: bisque;            
+            /* padding-top: 10px; */
+            /* можно указать все отступы сразу: top right bottom left */
+            padding: 10px 5px 15px 12px;
+            border: 2px solid red;
+            margin: 5px;
+        }
+        .blocks {
+            width: 100%;
+        }
+        .block {
+            width: 20%;
+            background-color: black;
+            height: 50px;
+            /* float: left - размещение div в ряд */
+            float: left;
+            border: 2px solid red;
+            /* чтобы учитывать border в размерности элемента, меняем значение по умолчанию (context-box) на border-box */
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Box model</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, vel.</p>
+        </div>
+        
+        <div class="box">
+            <h2>Box model</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, vel.</p>
+        </div>
+        
+        <div class="box">
+            <h2>Box model</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, vel.</p>
+        </div>
+    </div>
+    <div class="blocks">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+    
+    
+</body>
+</html>

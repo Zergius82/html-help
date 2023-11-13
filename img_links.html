@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images and Links</title>
+    <link rel="stylesheet" href="css/links.css">
+</head>
+<body>
+    <h3>Image with URL</h3>
+    <img src="https://umteh.com/uploads/posts/2023-09/1695813728_maxresdefault.jpg" alt="Image from Internet" width="150">
+    <hr>
+    <h3>Local Image from project</h3>
+    <img src="imgs/logo.png" alt="Local image">
+    <hr>
+    <h3 id="h3_links">Links</h3>
+    <a href="https://google.com" target="_blank" title="показывает всплывающий текст">Open Google in new tab</a>
+    <p>Можно ссылаться на определённую часть документа HTML (как фрагмент документа)    
+    <a href="#h3_links">фрагмент документа</a>
+    </p>
+    <p>Когда создаёте ссылку на файл, который должен быть загружен, а не открыт в браузере, можете использовать атрибут
+    download, чтобы создать имя файла по умолчанию для сохранения: <a href="https://download.mozilla.org/?product=firefox-39.0-SSL&os=win&lang=en-US" download="firefox-39-installer.exe">Скачать Firefox 39 для Windows</a>
+    </p>    
+    <p>Ссылки электронной почты: <a href="mailto:nowhere@mozilla.org">Отправить письмо для nowhere</a></p>
+    <p>Ссылки электронной почты (больше параметров):
+<a
+    href="mailto:nowhere@mozilla.org?cc=name2@rapidtables.com&bcc=name3@rapidtables.com&amp;subject=The%20subject%20of%20the%20email &amp;body=The%20body%20of%20the%20email">
+    Send mail with cc, bcc, subject and body
+</a>
+    </p>
+    <hr>
+    <h3>Links with css style</h3>
+    <a href="#" class="link">Ссылка со стилями css</a>
+    <hr>
+    <a href="#" class="btn">Ссылка в виде кнопки</a>
+    <br>
+    <br>
+    <button class="btn">Это кнопка</button>
+</body>
+</html>

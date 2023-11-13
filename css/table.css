@@ -1,0 +1,27 @@
+.table {
+   border: 1px solid black;
+   width: 100%;
+}
+.table td {
+   text-align: center;
+}
+.table td:hover {
+   background: lightsalmon;
+}
+/* стилизация нечётных строк */
+.table tr:nth-child(odd) {
+   background: #eee;
+}
+/* стилизация чётных строк */
+.table tr:nth-child(even) {
+   background: lightcyan;
+}
+/* стилизация шапки таблицы */
+.table th {
+   background: gray;
+   color: white;
+}
+/* стилизация столбцов №1 и №3*/
+.table td:nth-child(1), .table td:nth-child(3) {
+   color: blue;
+}

@@ -1,0 +1,34 @@
+.link {
+    color: rgb(88, 166, 9);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+/* при наведении на ссылку */
+.link:hover {
+    font-size: 1.4rem;
+}
+/* цвет посещённой ссылки */
+.link:visited {
+    color: red;
+}
+/* при нажатии на ссылку и удержании */
+.link:active {
+    color: blue;
+}
+.btn {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    /* заменяем шрифт по умолчанию на наследуемый от родительского элемента */
+    font-family: inherit;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.btn:hover {
+    opacity: 0.8;
+    color: whitesmoke;
+}

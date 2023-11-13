@@ -1,0 +1,25 @@
+/* Селектор по всем элементам */
+* {
+    margin-bottom: 10px;
+}
+/* Селектор по тегу */
+p {
+    background-color: #eee;
+}
+/* Селектор по id */
+#p3 {
+    color: brown;
+    border: 2px double rebeccapurple;
+}
+/* Селектор по классу */
+.out {
+    background-color: aqua;
+}
+/* Множественные селекторы */
+#p1, .out, body {
+    background-color: #eee;
+}
+/* Составные селекторы */
+div #p2 {
+    background-color: blueviolet;
+}
